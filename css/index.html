@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jeffrey Lin">
+    <meta name="description" content="I am Jeffrey Lin, an Electrical Engineering and Computer Science major at UC Berkeley, and this is my website.">
+    <meta name="keywords" content="jeffrey, lin, jeffreyjlin, jeffreylin, jefflin, linjeffrey, linjeffreyj, jlin, ucb, uc, berkeley, ucberkeley">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
+
+    <title>Jeffrey Lin | Hacker, Student, Developer </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+    $(function(){
+      $("#typed").typed({
+        strings: ["Hello World!", "I'm Jeffrey.", "Jeffrey Lin"],
+        typeSpeed: 30,
+        backDelay: 500,
+      });
+    });
+    </script>
+
+
+    <!-- Custom CSS -->
+    <link href="css/ihover.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <style>
+        /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        body {
+        padding-top: 40px;
+        background-image:url('img/background.jpg'); 
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size: cover;
+        background-position: left;
+        }
+    
+    </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <li class="page-scroll">
+                <a class="hBrand" href="#home">Jeffrey Lin</a>
+                </li>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#home"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="navLnk" href="#about">ABOUT</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class = "navLnk" href="#projects">PROJECTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" id="home" align:"center">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-6">
+
+                <div class = "intro-text hBig">
+                    <span id="typed"></span>
+                </div>
+                <!-- div class="intro-text">
+                    <p></p>
+                    <p class="hBig"><span>Jeffrey</span><span style="color:black"><b>Lin</b></span></p>
+
+                </div-->
+                <div class="btn-group" role="group">
+                    <row class="page-scroll">
+                    <a href="#home" class="button" id="homebutton"><span>Home</span></a>
+                    <a href="#about" class="button" id="aboutbutton"><span>About</span></a>
+                    <a href="#projects" class="button" id="projectsbutton"><span>Projects</span></a>
+                    </row>
+                    
+                </div>
+                </div>
+                <div class="col-md-4">
+                 <img class="img-circle" src="img/profile1.jpg" width="250vw">
+                 </div>
+                
+            </div>
+        </div>
+        <!-- /.row -->
+        
+    </div>
+    <!-- /.container -->
+    <div class="container about" id="about">
+            <h1 class="text-center title"><b>About me</b></h1>
+            <div class="col-lg-12 text-center">
+            <div class="col-md-4 text-center">
+                <img class="img-circle" src="img/profile.png" width="300vw">
+            </div> 
+            <div class="col-me-2">
+            <p></p>
+            </div>
+            <div class="col-md-6 text-center">
+                <p>I am currently a student at UC Berkeley in the College of Engineering, studying Electrical Engineering and Computer Science. In my spare time, I love playing basketball, an activity that burns many calories, which allows me to pursue my other passion: eating. Find out more about me:
+                </p>
+                <p><br></p>
+                <div class="row text-center">
+                    
+                    <a href="http://www.linkedin.com/in/jeffreyjlin" class="button"><i class="fa fa-fw fa-linkedin fa-lg"></i></a>
+                    <a href="https://www.facebook.com/JeffreyJLin" class="button"><i class="fa fa-fw fa-facebook fa-lg"></i></a>
+                    <a href="https://www.github.com/linjeffrey" class="button"><i class="fa fa-fw fa-github fa-lg"></i></a>
+                    <a href="mailto:jefflin@berkeley.edu" class="button"><i class="fa fa-fw fa-envelope fa-lg"></i></a>
+                    <a href="resources/Resume.pdf" class="button"><i class="fa fa-fw fa-file-text-o fa-lg"></i></a>          
+                </div>
+            </div>  
+            </div>
+                      
+    </div>
+
+    <div class="container" id="projects">
+            
+                <h1 class="text-center title"><b>Projects</b></h1>
+
+                <div id="topprojects">
+                <h2 class="text-center subtitle">Top Projects</h2>
+<div class="row">
+                
+                <!--div class="col-md-4" align="center">
+                     <a href="http://devpost.com/software/myo-car">
+                        <img src="img/myo.png" class="img-circle img-responsive" width="175"/>
+                    </a>
+                </div-->
+
+                <div class="col-md-4" align="center">
+ 
+                <!-- normal -->
+                <div class="ih-item circle effect3 left_to_right"><a href="http://devpost.com/software/sentiment-chat">
+                <div class="img"><img src="img/sentimentchat.png" alt="img"></div>
+                    <div class="info">
+                    <h3>Sentiment Chat</h3>
+                    <p class="ltag">#python #flask #azure</p>
+                    <p>It's nice to meet you!</p>
+                </div></a></div>
+                <!-- end normal -->
+ 
+                </div>
+
+                <div class="col-md-8">
+                    <h3 class="projectName">SentimentChat</h3>
+                    <p>@<a class="lnk" href="http://devpost.com/software/sentiment-chat">http://devpost.com/software/sentiment-chat</a></p>
+                    <p class="ltag">#python #flask #azure</p>
+                    <p><b>*Cal Hacks 2015 award winner for best use of Moxtra API*</b></p>
+                    <p>Graphic visualization of the sentiments of your chats in real time.</p>
+                </div>
+                </div>
+
+
+
+<!--
+                <div class="row">
+
+                <div class="col-md-4" align="center">
+ 
+                <div class="ih-item circle effect3 left_to_right"><a href="http://devpost.com/software/myo-car">
+                <div class="img"><img src="img/myo.png" alt="img"></div>
+                    <div class="info">
+                    <h3>Myo Car</h3>
+                    <p class="ltag">#c #c-sharp #unity</p>
+                    <p>Race a car with gestures, arrow keys are so passé</p>
+                </div></a></div>
+ 
+                </div>
+
+                <div class="col-md-8">
+                    <h3 class="projectName">MyoCar</h3>
+                    <p>@<a class="lnk" href="http://devpost.com/software/myo-car">http://devpost.com/software/myo-car</a></p>
+                    <p class="ltag">#c #c-sharp #unity-game-engine</p>
+                    <p>The MyoCar allows for control of an in game car with the Myo armband.</p>
+                </div>
+                </div>
+
+-->
+                <div class="row">
+
+
+                <div class="col-md-4" align="center">
+ 
+                <!-- normal -->
+                <div class="ih-item circle effect3 left_to_right"><a href="http://protypecount.herokuapp.com">
+                <div class="img"><img src="img/typecounter.png" alt="img"></div>
+                    <div class="info">
+                    <h3>Type Counter</h3>
+                    <p class="ltag">#python #flask</p>
+                    <p>Graphic text to key press mapping</p>
+                </div></a></div>
+                <!-- end normal -->
+ 
+                </div>
+
+                <div class="col-md-8">
+                    <h3 class="projectName">Type Counter</h3>
+                    <p>@<a class="lnk"href="http://protypecount.herokuapp.com">http://protypecount.herokuapp.com</a></p>
+                    <p class="ltag">#python #flask</p>
+                    <p><b>*HackJam Hackathon 2014 award winner*</b></p>
+                    <p>Type counter finds the frequency of each finger used within an entered text based off of the standard keyboard layout.</p>
+                </div>
+                </div>
+
+                <div class="row">
+
+                <!--div class="col-md-4" align="center">
+                     <a href="http://github.com/linjeffrey/YakarmaGenerator">
+                        <img src="img/yikyakinglogo.png" class="img-circle" width="175"/>
+                    </a>
+                </div-->
+
+                <div class="col-md-4" align="center">
+ 
+    <!-- normal -->
+    <div class="ih-item circle effect3 left_to_right"><a href="resources/abstract.pdf">
+        <div class="img"><img src="img/bu.png" alt="img"></div>
+        <div class="info">
+          <h3>Inert anodes</h3>
+          <p class="ltag">#research #material-science</p>
+          <p>Cost effective, environmentally friendly silicon production</p>
+        </div></a></div>
+    <!-- end normal -->
+ 
+                </div>
+
+                <div class="col-md-8">
+                    <h3 class="projectName">Inert Anodes</h3>
+                    <p>@<a class="lnk" href="resources/abstract.pdf">http://linjeffrey.me/Abstract</a></p>
+                    <p class="ltag">#research #material-science</p>
+                    <p>Worked in Professor Pal's labaratory at Boston University to create inert anodes that allowed cost effective, environmentally friendly silicon production.</p>
+                </div>
+                </div>
+                </div>
+<div id="otherprojects">
+
+<h2 class="text-center subtitle">Other Projects</h2>
+
+
+<!-- Left to right-->
+<div class="col-lg-12">
+    <div class="col-md-4" align="right">
+ 
+ 
+                <!-- normal -->
+                <div class="ih-item circle effect3 left_to_right"><a href="http://devpost.com/software/myo-car">
+                <div class="img"><img src="img/myo.png" alt="img"></div>
+                    <div class="info">
+                    <h3>Myo Car</h3>
+                    <p class="ltag">#c #c-sharp #unity</p>
+                    <p>Race a car with gestures, arrow keys are so passé</p>
+                </div></a></div>
+                <!-- end normal -->
+ 
+  </div>
+
+<div class="col-md-4" align="center">
+ 
+    <!-- normal -->
+    <div class="ih-item circle effect3 left_to_right"><a href="http://github.com/linjeffrey/LicensePlateID">
+        <div class="img"><img src="img/license.jpg" alt="img"></div>
+        <div class="info">
+          <h3>License Plate ID</h3>
+          <p class="ltag">#java</p>
+          <p>Used edge detection to read license plates from traffic cam photos</p>
+        </div></a></div>
+    <!-- end normal -->
+ 
+  </div> 
+
+
+  <div class="col-md-4" align="left">
+ 
+                <!-- normal -->
+                <div class="ih-item circle effect3 left_to_right"><a href="http://github.com/linjeffrey/YakarmaGenerator">
+                <div class="img"><img src="img/yikyakinglogo.png" alt="img"></div>
+                    <div class="info">
+                    <h3>Yik Yak*ing</h3>
+                    <p class="ltag">#python #android</p>
+                    <p>Generate Yakarma with the Top Reposts of the internet</p>
+                </div></a></div>
+                <!-- end normal -->
+ 
+  </div>
+  
+</div>
+<!-- end Left to right-->
+
+<!-- Left to right-->
+<div class="col-lg-16">
+
+    <div class="col-md-4" align="right">
+ 
+    <!--normal -->
+    <div class="ih-item circle effect3 left_to_right"><a href="http://dinrapp.herokuapp.com">
+        <div class="img"><img src="img/dinr.png" alt="img"></div>
+        <div class="info">
+          <h3>dinr</h3>
+          <p class="ltag">#ruby-on-rails</p>
+          <p>Eat dinner with friends!</p>
+        </div></a></div>
+    <!-- end normal -->
+ 
+  </div>
+
+  <div class="col-md-4" align="center">
+ 
+    <!-- normal -->
+    <div class="ih-item circle effect3 left_to_right"><a href="">
+        <div class="img"><img src="img/website.jpg" alt="img"></div>
+        <div class="info">
+          <h3>This Website</h3>
+          <p class="ltag">#html #css #javascript</p>
+          <p>Built this website from scratch, using bootstrap and iHover.</p>
+        </div></a></div>
+    <!-- end normal -->
+ 
+  </div>
+
+  <div class="col-md-4" align="left">
+ 
+    <!-- normal -->
+    <div class="ih-item circle effect3 left_to_right"><a href="http://pokeportalpro.herokuapp.com">
+        <div class="img"><img src="img/pokeball.png" alt="img"></div>
+        <div class="info">
+          <h3>PokePortal</h3>
+          <p class="ltag">#ruby-on-rails</p>
+          <p>Developed poke playing clone using devise.</p>
+        </div></a></div>
+    <!-- end normal -->
+ 
+  </div>
+
+
+
+  
+</div>
+<!-- end Left to right-->
+
+<!-- Left to right-->
+<div class="col-lg-16">
+
+    <div class="col-md-4" align="right">
+ 
+    <!--normal -->
+    <!--div class="ih-item circle effect3 left_to_right"><a href="http://dinrapp.herokuapp.com">
+        <div class="img"><img src="img/dinr.png" alt="img"></div>
+        <div class="info">
+          <h3>dinr</h3>
+          <p class="ltag">#ruby-on-rails</p>
+          <p>Eat dinner with friends!</p>
+        </div></a></div-->
+    <!-- end normal -->
+ 
+  </div>
+
+  <div class="col-md-4" align="center">
+ 
+    <!-- normal -->
+    <div class="ih-item circle effect3 left_to_right"><a href="http://jefflin.meteor.com">
+        <div class="img"><img src="img/message.jpg" alt="img"></div>
+        <div class="info">
+          <h3>Message board</h3>
+          <p class="ltag">#javascript #meteor.js</p>
+          <p>Simple message board with upvoting and admin deletion.</p>
+        </div></a></div>
+    <!-- end normal -->
+ 
+  </div>
+
+  <div class="col-md-4" align="left">
+ 
+    <!-- normal -->
+    <!--div class="ih-item circle effect3 left_to_right"><a href="http://pokeportalpro.herokuapp.com">
+        <div class="img"><img src="img/pokeball.png" alt="img"></div>
+        <div class="info">
+          <h3>PokePortal</h3>
+          <p class="ltag">#ruby-on-rails</p>
+          <p>Developed poke playing clone using devise.</p>
+        </div></a></div-->
+    <!-- end normal -->
+ 
+  </div>
+
+
+
+  
+</div>
+<!-- end Left to right-->
+
+</div>
+
+</div>                   
+    
+
+     <footer class="text-center" id="foot">
+            ©2015 <a class="lnk" href="http://linjeffrey.me">Jeffrey Lin</a>
+            </footer>
+
+
+
+
+</body>
+
+</html>
